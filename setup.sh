@@ -9,7 +9,7 @@ set -e  # Exit on any error
 
 DOMAIN="app.thekechi.com"
 APP_DIR="/var/www/bahikhata"
-REPO_URL="https://github.com/Rajpreetgiri/bahikhata.git"          # <-- Fill in: https://github.com/yourusername/bahikhata.git
+REPO_URL="git@github.com:Rajpreetgiri/bahikhata.git"
 MONGO_ADMIN_PASS="KoiStrongPassword123@!"  # <-- Fill in: strong admin password
 MONGO_APP_PASS="KoiStrongPassword123@!"    # <-- Fill in: strong app password
 BACKEND_PORT=5000
@@ -44,7 +44,7 @@ log "Node.js installed: $(node -v)"
 # ─── 3. PM2 ───────────────────────────────────────────────────────────────────
 log "Installing PM2..."
 npm install -g pm2
-pm2 startup systemd -u root --hp /root | tail -1 | bash
+env PATH=$PATH:/usr/bin /usr/lib/node_modules/pm2/bin/pm2 startup systemd -u root --hp /root || true
 log "PM2 installed"
 
 # ─── 4. MongoDB 7 ─────────────────────────────────────────────────────────────
