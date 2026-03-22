@@ -1,0 +1,115 @@
+{
+  "common": {
+    "save": "सेव करें",
+    "cancel": "रद्द करें",
+    "delete": "मिटाएं",
+    "edit": "बदलें",
+    "add": "जोड़ें",
+    "close": "बंद करें",
+    "loading": "लोड हो रहा है...",
+    "search": "खोजें",
+    "filter": "फ़िल्टर",
+    "total": "कुल",
+    "amount": "राशि",
+    "date": "तारीख",
+    "note": "नोट",
+    "noData": "कोई डेटा नहीं",
+    "loadMore": "और लोड करें",
+    "share": "शेयर करें",
+    "download": "डाउनलोड"
+  },
+  "nav": {
+    "dashboard": "डैशबोर्ड",
+    "customers": "ग्राहक",
+    "suppliers": "सप्लायर",
+    "invoices": "बिल / इनवॉइस",
+    "inventory": "सामान / स्टॉक",
+    "expenses": "खर्च",
+    "history": "इतिहास",
+    "cashbook": "कैशबुक",
+    "reminders": "रिमाइंडर",
+    "reports": "रिपोर्ट",
+    "settings": "सेटिंग्स"
+  },
+  "auth": {
+    "login": "लॉगिन",
+    "logout": "लॉगआउट",
+    "email": "ईमेल",
+    "sendOtp": "OTP भेजें",
+    "verifyOtp": "OTP वेरिफाई करें",
+    "enterOtp": "ईमेल पर भेजे गए 6 अंकों का OTP दर्ज करें",
+    "resendOtp": "OTP दोबारा भेजें"
+  },
+  "dashboard": {
+    "totalReceivable": "कुल उधार देना है",
+    "totalPayable": "कुल चुकाना है",
+    "customerAdvances": "ग्राहक अग्रिम",
+    "thisMonthExpenses": "इस महीने का खर्च",
+    "recentActivity": "हाल की गतिविधि",
+    "quickActions": "त्वरित कार्य"
+  },
+  "customers": {
+    "title": "ग्राहक",
+    "addCustomer": "नया ग्राहक",
+    "outstanding": "बकाया",
+    "gave": "दिया (उधार)",
+    "got": "मिला (भुगतान)",
+    "noCustomers": "अभी कोई ग्राहक नहीं",
+    "creditLimit": "क्रेडिट सीमा",
+    "riskFlag": "जोखिम चिह्न",
+    "statement": "स्टेटमेंट"
+  },
+  "transactions": {
+    "gave": "दिया (उधार)",
+    "got": "मिला (भुगतान)",
+    "dueDate": "देय तारीख",
+    "paymentMethod": "भुगतान का तरीका",
+    "addTransaction": "लेनदेन जोड़ें",
+    "noTransactions": "अभी कोई लेनदेन नहीं"
+  },
+  "settings": {
+    "title": "सेटिंग्स",
+    "businessName": "व्यापार का नाम",
+    "ownerName": "मालिक का नाम",
+    "phone": "फोन नंबर",
+    "address": "पता",
+    "gstNumber": "GST नंबर",
+    "upiId": "UPI ID",
+    "language": "भाषा",
+    "pinLock": "PIN लॉक",
+    "enablePin": "PIN चालू करें",
+    "disablePin": "PIN बंद करें",
+    "changePin": "PIN बदलें",
+    "staff": "स्टाफ प्रबंधन",
+    "businessCard": "बिज़नेस कार्ड",
+    "myBusinesses": "मेरे व्यापार",
+    "notifications": "नोटिफिकेशन",
+    "paymentQr": "पेमेंट QR कोड",
+    "autoReminders": "ऑटो रिमाइंडर"
+  },
+  "cashbook": {
+    "title": "कैशबुक",
+    "cashIn": "नकद आया",
+    "cashOut": "नकद गया",
+    "netCash": "शुद्ध नकद",
+    "today": "आज",
+    "last7Days": "7 दिन",
+    "last30Days": "30 दिन",
+    "allTime": "सब",
+    "addCashIn": "नकद आया जोड़ें",
+    "addCashOut": "नकद गया जोड़ें"
+  },
+  "expenses": {
+    "title": "खर्च",
+    "addExpense": "खर्च जोड़ें",
+    "category": "श्रेणी",
+    "totalExpenses": "कुल खर्च"
+  },
+  "staff": {
+    "title": "स्टाफ",
+    "invite": "आमंत्रित करें",
+    "admin": "एडमिन",
+    "viewer": "देखने वाला",
+    "removeStaff": "स्टाफ हटाएं"
+  }
+}

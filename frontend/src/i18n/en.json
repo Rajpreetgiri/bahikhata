@@ -1,0 +1,115 @@
+{
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "close": "Close",
+    "loading": "Loading...",
+    "search": "Search",
+    "filter": "Filter",
+    "total": "Total",
+    "amount": "Amount",
+    "date": "Date",
+    "note": "Note",
+    "noData": "No data found",
+    "loadMore": "Load More",
+    "share": "Share",
+    "download": "Download"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "customers": "Customers",
+    "suppliers": "Suppliers",
+    "invoices": "Invoices",
+    "inventory": "Inventory",
+    "expenses": "Expenses",
+    "history": "History",
+    "cashbook": "Cashbook",
+    "reminders": "Reminders",
+    "reports": "Reports",
+    "settings": "Settings"
+  },
+  "auth": {
+    "login": "Login",
+    "logout": "Logout",
+    "email": "Email",
+    "sendOtp": "Send OTP",
+    "verifyOtp": "Verify OTP",
+    "enterOtp": "Enter the 6-digit OTP sent to your email",
+    "resendOtp": "Resend OTP"
+  },
+  "dashboard": {
+    "totalReceivable": "Total Receivable",
+    "totalPayable": "Total Payable",
+    "customerAdvances": "Customer Advances",
+    "thisMonthExpenses": "This Month Expenses",
+    "recentActivity": "Recent Activity",
+    "quickActions": "Quick Actions"
+  },
+  "customers": {
+    "title": "Customers",
+    "addCustomer": "Add Customer",
+    "outstanding": "Outstanding",
+    "gave": "Given (Udhar)",
+    "got": "Received",
+    "noCustomers": "No customers yet",
+    "creditLimit": "Credit Limit",
+    "riskFlag": "Risk Flag",
+    "statement": "Statement"
+  },
+  "transactions": {
+    "gave": "Gave (Udhar)",
+    "got": "Got (Payment)",
+    "dueDate": "Due Date",
+    "paymentMethod": "Payment Method",
+    "addTransaction": "Add Transaction",
+    "noTransactions": "No transactions yet"
+  },
+  "settings": {
+    "title": "Settings",
+    "businessName": "Business Name",
+    "ownerName": "Owner Name",
+    "phone": "Phone",
+    "address": "Address",
+    "gstNumber": "GST Number",
+    "upiId": "UPI ID",
+    "language": "Language",
+    "pinLock": "PIN Lock",
+    "enablePin": "Enable PIN",
+    "disablePin": "Disable PIN",
+    "changePin": "Change PIN",
+    "staff": "Staff Management",
+    "businessCard": "Business Card",
+    "myBusinesses": "My Businesses",
+    "notifications": "Notifications",
+    "paymentQr": "Payment QR Code",
+    "autoReminders": "Auto Reminders"
+  },
+  "cashbook": {
+    "title": "Cashbook",
+    "cashIn": "Cash In",
+    "cashOut": "Cash Out",
+    "netCash": "Net Cash",
+    "today": "Today",
+    "last7Days": "7 Days",
+    "last30Days": "30 Days",
+    "allTime": "All Time",
+    "addCashIn": "Add Cash In",
+    "addCashOut": "Add Cash Out"
+  },
+  "expenses": {
+    "title": "Expenses",
+    "addExpense": "Add Expense",
+    "category": "Category",
+    "totalExpenses": "Total Expenses"
+  },
+  "staff": {
+    "title": "Staff",
+    "invite": "Invite",
+    "admin": "Admin",
+    "viewer": "Viewer",
+    "removeStaff": "Remove Staff"
+  }
+}
