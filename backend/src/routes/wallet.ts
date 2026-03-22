@@ -13,10 +13,15 @@ import { sendSuccess } from '../utils/response';
 const router = Router();
 router.use(authenticate);
 
-const razorpay = new Razorpay({
-  key_id:     process.env.RAZORPAY_KEY_ID!,
-  key_secret: process.env.RAZORPAY_KEY_SECRET!,
-});
+function getRazorpay() {
+  if (!process.env.RAZORPAY_KEY_ID || !process.env.RAZORPAY_KEY_SECRET) {
+    throw new Error('RAZORPAY_KEY_ID or RAZORPAY_KEY_SECRET not configured');
+  }
+  return new Razorpay({
+    key_id:     process.env.RAZORPAY_KEY_ID,
+    key_secret: process.env.RAZORPAY_KEY_SECRET,
+  });
+}
 
 // ─── Helper: get or create wallet ────────────────────────────────────────────
 async function getWallet(merchantId: string) {
@@ -143,7 +148,7 @@ router.post(
       throw AppError.badRequest('Maximum top-up amount per transaction is ₹1,00,000', 'INVALID_AMOUNT');
     }
 
-    const order = await razorpay.orders.create({
+    const order = await getRazorpay().orders.create({
       amount: Math.round(amount * 100), // paise
       currency: 'INR',
       notes: { merchantId: req.userId!, type: 'wallet_topup' },
@@ -245,7 +250,7 @@ router.post(
     }
 
     const config = PACK_CONFIG[plan];
-    const order = await razorpay.orders.create({
+    const order = await getRazorpay().orders.create({
       amount: config.price * 100,
       currency: 'INR',
       notes: { merchantId: req.userId!, type: 'sms_pack', plan },
